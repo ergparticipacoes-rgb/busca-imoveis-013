@@ -1,0 +1,38 @@
+{
+  "name": "busca-imoveis-013",
+  "version": "2.4.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "pre-deploy": "bash scripts/pre-deploy.sh",
+    "clean": "rm -rf .next node_modules/.cache",
+    "deploy:prod": "vercel --prod",
+    "deploy:preview": "vercel"
+  },
+  "dependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.21",
+    "framer-motion": "^12.23.24",
+    "mercadopago": "^2.0.15",
+    "next": "^15.5.6",
+    "postcss": "^8.5.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.18",
+    "typescript": "^5.5.2",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^15.5.6"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}

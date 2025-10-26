@@ -1,0 +1,170 @@
+[
+  {
+    "_id": "64bf001",
+    "title": "Apartamento Vista Mar - Santos",
+    "price": 850000,
+    "city": "Santos",
+    "type": "Apartamento",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": 110,
+    "plan": "pro",
+    "images": [
+      "/icon-192.png"
+    ]
+  },
+  {
+    "_id": "64bf002",
+    "title": "Casa Térrea - Praia Grande",
+    "price": 520000,
+    "city": "Praia Grande",
+    "type": "Casa",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area": 200,
+    "plan": "basic",
+    "images": [
+      "/icon-192.png"
+    ]
+  },
+  {
+    "_id": "64bf003",
+    "title": "Cobertura Moderna - Guarujá",
+    "price": 1490000,
+    "city": "Guarujá",
+    "type": "Cobertura",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "area": 320,
+    "plan": "max",
+    "images": [
+      "/icon-192.png"
+    ]
+  },
+  {
+    "_id": "64bf004",
+    "title": "Sobrado Novo - São Vicente",
+    "price": 690000,
+    "city": "São Vicente",
+    "type": "Sobrado",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area": 180,
+    "plan": "pro",
+    "images": [
+      "/icon-192.png"
+    ]
+  },
+  {
+    "_id": "64bf005",
+    "title": "Kitnet Compacta - Mongaguá",
+    "price": 150000,
+    "city": "Mongaguá",
+    "type": "Kitnet",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area": 28,
+    "plan": "basic",
+    "images": [
+      "/icon-192.png"
+    ]
+  },
+  {
+    "_id": "64bf006",
+    "title": "Chácara dos Sonhos - Bertioga",
+    "price": 1200000,
+    "city": "Bertioga",
+    "type": "Chácara",
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "area": 1200,
+    "plan": "max",
+    "images": [
+      "/icon-192.png"
+    ]
+  },
+  {
+    "_id": "64bf007",
+    "title": "Apartamento Compacto - Gonzaga/Santos",
+    "price": 350000,
+    "city": "Santos",
+    "type": "Apartamento",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area": 60,
+    "plan": "basic",
+    "images": [
+      "/icon-192.png"
+    ]
+  },
+  {
+    "_id": "64bf008",
+    "title": "Casa com Quintal - Itanhaém",
+    "price": 420000,
+    "city": "Itanhaém",
+    "type": "Casa",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": 140,
+    "plan": "pro",
+    "images": [
+      "/icon-192.png"
+    ]
+  },
+  {
+    "_id": "64bf009",
+    "title": "Flat Mobiliado - Santos Centro",
+    "price": 280000,
+    "city": "Santos",
+    "type": "Flat",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area": 45,
+    "plan": "basic",
+    "images": [
+      "/icon-192.png"
+    ]
+  },
+  {
+    "_id": "64bf010",
+    "title": "Terreno com Potencial - Guarujá",
+    "price": 600000,
+    "city": "Guarujá",
+    "type": "Terreno",
+    "bedrooms": 0,
+    "bathrooms": 0,
+    "area": 500,
+    "plan": "basic",
+    "images": [
+      "/icon-192.png"
+    ]
+  },
+  {
+    "_id": "64bf011",
+    "title": "Casa de Praia - Peruíbe",
+    "price": 780000,
+    "city": "Peruíbe",
+    "type": "Casa",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area": 210,
+    "plan": "pro",
+    "images": [
+      "/icon-192.png"
+    ]
+  },
+  {
+    "_id": "64bf012",
+    "title": "Loft Industrial - São Vicente",
+    "price": 980000,
+    "city": "São Vicente",
+    "type": "Loft",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area": 140,
+    "plan": "max",
+    "images": [
+      "/icon-192.png"
+    ]
+  }
+]
