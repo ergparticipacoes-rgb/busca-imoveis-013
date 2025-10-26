@@ -33,8 +33,5 @@
     "contentDispositionType": "inline"
   },
   "regions": ["gru1"],
-  "ignoreCommand": "git diff --quiet HEAD^ HEAD ./",
-  "analytics": {
-    "enable": true
-  }
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD ./"
 }
