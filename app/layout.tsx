@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: 'A plataforma mais inteligente de busca imobiliária do Brasil. Encontre o imóvel perfeito com inteligência artificial.',
     images: [
       {
-        url: '/img/hero-bg.jpg',
+        url: '/images/hero-bg.webp',
         width: 1920,
         height: 1080,
         alt: 'Busca Imóveis 013 - Baixada Santista',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Busca Imóveis 013 — Imóveis na Baixada Santista com IA',
     description: 'A plataforma mais inteligente de busca imobiliária do Brasil.',
-    images: ['/img/hero-bg.jpg'],
+    images: ['/images/hero-bg.webp'],
   },
 }
 
@@ -46,7 +46,7 @@ export default function RootLayout({children}:{children:React.ReactNode}){
     description: 'Plataforma de busca e anúncios de imóveis na Baixada Santista impulsionada por inteligência artificial',
     url: 'https://buscaimoveis013.com.br',
     logo: 'https://buscaimoveis013.com.br/icon-512.png',
-    image: 'https://buscaimoveis013.com.br/img/hero-bg.jpg',
+    image: 'https://buscaimoveis013.com.br/images/hero-bg.webp',
     telephone: '+55-13-0000-0000',
     email: 'contato@buscaimoveis013.com.br',
     address: {

@@ -3,7 +3,6 @@ import {useState, useEffect} from 'react'
 import {motion} from 'framer-motion'
 
 export default function HeroCinematic(){
-  const [videoLoaded, setVideoLoaded] = useState(true)
   const [isMounted, setIsMounted] = useState(false)
 
   useEffect(() => {
@@ -12,33 +11,16 @@ export default function HeroCinematic(){
 
   return(
     <section className='relative text-white py-20 overflow-hidden min-h-[500px] flex items-center'>
-      {/* Vídeo de fundo */}
-      {videoLoaded && (
-        <video
-          className='absolute inset-0 w-full h-full object-cover'
-          src='/video/baixada.mp4'
-          poster='/img/hero-bg.jpg'
-          autoPlay
-          loop
-          muted
-          playsInline
-          preload='none'
-          onError={() => setVideoLoaded(false)}
-          aria-label='Vídeo de fundo mostrando a Baixada Santista'
-        />
-      )}
-      
-      {/* Fallback - imagem de fundo */}
+      {/* Imagem de fundo hero-bg.webp */}
       <div 
         className='absolute inset-0 bg-cover bg-center'
         style={{ 
-          backgroundImage: "url('/img/hero-bg.jpg')",
-          display: videoLoaded ? 'none' : 'block'
+          backgroundImage: "url('/images/hero-bg.webp')"
         }}
       />
       
-      {/* Overlay azul petróleo */}
-      <div className='absolute inset-0 bg-[#1e2f39cc]' />
+      {/* Overlay azul petróleo para contraste premium */}
+      <div className='absolute inset-0 bg-[#1e2f39]/55' />
       
       {/* Conteúdo */}
       <motion.div 
